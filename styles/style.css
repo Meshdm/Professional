@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -61,8 +63,15 @@
 
 .banner__header {
     margin-top: -40rem;
-    font-size: 90px;
-    color: rgb(75, 170, 60);
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+.banner__header-2 {
+    margin-top: -40rem;
+    font-size: 70px;
+    color: rgb(86, 75, 75);
     margin-left: 20px;
 }
 
@@ -97,6 +106,7 @@
 
 .facts__item p {
     font-size: 20px;
+    padding-left: 10px;
 }
 
 .services__wrapper {
@@ -129,6 +139,10 @@
 .services__item {
     width: 100%;
     border: 1px solid #ccc;
+}
+
+.services__item p, h3 {
+    margin-left: 8px;
 }
 
 .services__item img {
