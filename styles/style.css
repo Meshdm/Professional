@@ -53,13 +53,13 @@
 
 .header__nav a {
     text-decoration: none;
-    padding-right: 40px;
+    margin-right: 40px;
     color: white;
     font-size: 20px;
 }
 
 .banner {
-    padding-right: 500px;
+    margin-right: 500px;
 }
 
 .banner__header {
@@ -77,7 +77,7 @@
 }
 
 .banner__photo {
-    width: 1519px;
+    width: 1481.25px;
     height: 700px;
     position: relative;
     z-index: -1;
@@ -311,6 +311,22 @@
     background-image: url(/images/random-chel-2.jpg);
 }
 
+.header__nav > a {
+    background: linear-gradient(white 0 0) bottom /var(--t, 0) 2px no-repeat;
+    transition: 0.5s;
+}
+
+.header__nav > a:hover {
+    --t:100%;
+
+
+}
+
+
+.header__nav a:hover::after {
+    transform: scaleX(1);
+}
+
 @media (max-width: 790px) {
     .header {
         width: 790px;
@@ -406,4 +422,6 @@
         width: 790px;
     }
 }
+
+
 
